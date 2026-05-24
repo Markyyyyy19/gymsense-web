@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GymSense</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <svg class="logo-icon" viewBox="0 0 64 64" fill="none">
+          <rect x="10" y="28" width="44" height="8" rx="4" fill="#888"/>
+          <rect x="4" y="12" width="10" height="40" rx="2" fill="#f97316"/>
+          <rect x="14" y="16" width="6" height="32" rx="1" fill="#c2410c"/>
+          <rect x="50" y="12" width="10" height="40" rx="2" fill="#f97316"/>
+          <rect x="44" y="16" width="6" height="32" rx="1" fill="#c2410c"/>
+        </svg>
+        GymSense
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#exercises">Exercises</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Your Personal AI<br>Workout Coach</h1>
+      <p class="hero-desc">
+        Stop guessing if you're doing it right. Point your camera, start exercising, and get real-time voice feedback on your form.
+      </p>
+      <div class="hero-buttons">
+        <a href="gymsense-v1.0.0.apk" class="btn btn-primary" download>Download</a>
+        <a href="#exercises" class="btn btn-ghost">View Exercises</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <h2>How it works</h2>
+      <div class="features-grid">
+        <div class="feature" data-scroll>
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <polygon points="10 8 16 12 10 16 10 8"/>
+            </svg>
+          </div>
+          <h3>Real-time feedback</h3>
+          <p>Voice cues while you exercise. No need to look at your screen.</p>
+        </div>
+        <div class="feature" data-scroll>
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+              <line x1="12" y1="18" x2="12.01" y2="18"/>
+            </svg>
+          </div>
+          <h3>Works offline</h3>
+          <p>All AI runs on your phone. No internet required.</p>
+        </div>
+        <div class="feature" data-scroll>
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3>Privacy first</h3>
+          <p>Your videos never leave your device.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="exercises" id="exercises">
+    <div class="container">
+      <h2>Supported Exercises</h2>
+      <p class="section-desc">17 exercises with real-time AI form analysis. Trained on real workout data.</p>
+      
+      <!-- Upper Body (7) -->
+      <h3 class="category-title">Upper Body</h3>
+      <div class="exercise-grid">
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/pushup.jpg" alt="Push-up"></div>
+          <div class="exercise-info"><h3>Push-up</h3><span>Chest</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/bicep_curl.jpg" alt="Bicep Curl"></div>
+          <div class="exercise-info"><h3>Bicep Curl</h3><span>Arms</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/shoulder_press.jpg" alt="Shoulder Press"></div>
+          <div class="exercise-info"><h3>Shoulder Press</h3><span>Shoulders</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/hammer_curl.jpg" alt="Hammer Curl"></div>
+          <div class="exercise-info"><h3>Hammer Curl</h3><span>Arms</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/tricep_extension.jpg" alt="Tricep Extension"></div>
+          <div class="exercise-info"><h3>Tricep Extension</h3><span>Arms</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/bent_over_row.jpg" alt="Bent Over Row"></div>
+          <div class="exercise-info"><h3>Bent Over Row</h3><span>Back</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/pullup.jpg" alt="Pull-up"></div>
+          <div class="exercise-info"><h3>Pull-up</h3><span>Back</span></div>
+        </div>
+      </div>
+
+      <!-- Lower Body (5) -->
+      <h3 class="category-title">Lower Body</h3>
+      <div class="exercise-grid">
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/squat.jpg" alt="Squat"></div>
+          <div class="exercise-info"><h3>Squat</h3><span>Legs</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/reverse_lunge.jpg" alt="Reverse Lunge"></div>
+          <div class="exercise-info"><h3>Reverse Lunge</h3><span>Legs</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/deadlift.gif" alt="Deadlift"></div>
+          <div class="exercise-info"><h3>Deadlift</h3><span>Legs & Back</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/calf_raise.gif" alt="Calf Raise"></div>
+          <div class="exercise-info"><h3>Calf Raise</h3><span>Calves</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/glute_bridge.gif" alt="Glute Bridge"></div>
+          <div class="exercise-info"><h3>Glute Bridge</h3><span>Glutes</span></div>
+        </div>
+      </div>
+
+      <!-- Core (5) -->
+      <h3 class="category-title">Core</h3>
+      <div class="exercise-grid">
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/plank.jpg" alt="Plank"></div>
+          <div class="exercise-info"><h3>Plank</h3><span>Core (Hold)</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/sit_up.gif" alt="Sit-up"></div>
+          <div class="exercise-info"><h3>Sit-up</h3><span>Abs</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/russian_twist.gif" alt="Russian Twist"></div>
+          <div class="exercise-info"><h3>Russian Twist</h3><span>Obliques</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/leg_raise.gif" alt="Leg Raise"></div>
+          <div class="exercise-info"><h3>Leg Raise</h3><span>Lower Abs</span></div>
+        </div>
+        <div class="exercise-card" data-scroll>
+          <div class="exercise-img"><img src="assets/dead_bug.gif" alt="Dead Bug"></div>
+          <div class="exercise-info"><h3>Dead Bug</h3><span>Core Stability</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <p>Built by Wilmark Licayan & Ringheart Tagalog</p>
+      <p class="copyright">2026 GymSense</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
